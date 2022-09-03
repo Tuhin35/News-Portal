@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white container mx-auto  text-center">
+
+    <h1 class="text-4xl text-black m-2 p-2">
+        Our Latest Blogs
+    </h1>
+    <section class="bg-blue-200 mx-auto w-6/12 rounded-box">
+        <div class=" text-black  mx-3">
+            <p class="m-2 text-2xl">Var, Let, and Const - What's the Difference?</p>
+            <hr>
+            <h2 class="text-start m-1">Const :</h2>
+            <p class="text-start mb-3">Basically, when you assign a value to a variable when using const, it means that you cannot give that
+                variable another value later on. In other words, if you try to change a const variable, you will get an
+                error thrown back at you. If you set a const statement inside of a block, however, it will only remain
+                inside of that block.Since const is block-scoped, this means that anything you try to do with a const
+                variable can only be used within the block of code where you initially wrote it.</p>
+            <h2 class="text-start m-1">Const :</h2>
+            <p class="text-start mb-3">Similar to const, let also works in terms of block scope. However, it is also similar to var in the fact
+                that let does allow you to change its value later on in your code, but more on that in a minute. This
+                means that the code below prints 100 instead of 50. If you were to replace let with const in this
+                example, you would get an error thrown at you.</p>
+            <h2 class="text-start m-1">Const :</h2>
+            <p class="text-start mb-3">var and let are very similar in the fact that you can reassign a value later on. The main difference
+                between the two though is that let deals with block scope whereas var deals with global scope or
+                function scope depending on where it’s declared. As long as your variable isn’t declared within any
+                function, var can be used again anywhere else in your code. Also unlike let, var allows you to declare
+                the variable as many times as you want and there will be no errors thrown at you.</p>
+        </div>
+
+
+    </section>
+
+    <footer class="text-center m-5 p-10">
+        <h1 class="text-2xl">Copyright ©2022 All Rights Reserved By <span class="text-secondary text-3xl">Raihan Uddin Tuhin</span> </h1>
+    </footer>
+
+</body>
+
+</html>

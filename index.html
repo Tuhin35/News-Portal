@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 News Update</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white">
+    <header>
+        <div class="navbar  rounded-full bg-blue-100 border-b-2 text-black ">
+            <div class="flex-1">
+                <a class="btn btn-ghost bg-blue-500 normal-case mx-3 text-xl">24 Update</a>
+                <h4 class="text-xl-center text-2xl">News</h4>
+            </div>
+            <div class="flex-none gap-2">
+
+                <div class=" flex flex-row m-5 text-2xl">
+                    <h5><a class="m-3" href="">News</a></h5>
+                    <h5><a class="m-3" href="blog.html">Blog</a></h5>
+                    <div class=" rounded-full">
+                        <img class="m-3 w-10 rounded-full " src="images/picture1.jpeg" />
+                    </div>
+                    </label>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <ul class="menu container mx-auto menu-horizontal bg-primary mt-5 flex text-xl text-center justify-items-center rounded-box"
+                id="all-menu">
+                <li><a>Home</a></li>
+
+            </ul>
+
+            <div class="w-8/12 mx-auto bg-white text-amber-500 p-6 text-3xl rounded-xl" id="show-news-title">
+                <div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- <section id="soorted">
+            <div class="container  d-flex justify-between">
+                <div class="left d-flex text-black align-items-center">
+                    <h5>Sorted by :</h5> -->
+        <!-- Default dropend button
+                    <div class="btn-group dropend ms-3">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Views
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">views</a></li>
+                            <li><a class="dropdown-item" href="#">Liked</a></li>
+                            <li><a class="dropdown-item" href="#">Shared</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="right justify-center">
+                    <button type="button" class="btn btn-primary">Today's pick</button>
+                    <button type="button" class="btn btn-outline-primary">Trending</button>
+                </div>
+            </div>
+        </section> -->
+
+        <section class=" container mx-auto">
+            <div>
+                <div class="dropdown text-2xl flex justify-between">
+                    <div class="flex flex-row">
+                        <h5>Sorted by :</h5>
+                        <label tabindex="0" class="btn btn-primary m-1">Viwes</label>
+                        <ul tabindex="0"
+                            class="dropdown-content menu p-2 shadow mt-14 mx-20 bg-blue-200 text-black rounded-box ">
+                            <li><a>viwes</a></li>
+                            <li><a>Likes</a></li>
+                            <li><a>comments</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="right justify-center">
+                        <h5 type="button" onclick="" class="btn btn-primary text-black text-xl">Today's pick</h5>
+                        <h5 type="button" onclick="" class="btn btn-outline-primary text-black text-xl">Trending</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+
+
+
+            <div id="card-field" class="bg-white flex-column justify-items-center ">
+
+                <!-- <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="https://placeimg.com/200/280/arch" alt="Movie"></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">New movie is released!</h2>
+                      <p>Click the button to watch on Jetflix app.</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Watch</button>
+                      </div>
+                    </div>
+                  </div>
+                 </div> -->
+            </div>
+            <div id="not-found" class="bg-white">
+
+
+
+            </div>
+
+        </section>
+        <!-- modal -->
+
+
+        <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+        <div class="modal">
+            <div class="modal-box relative">
+                <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                <div id="modal-bd">
+                    <!-- <h3 class="text-lg font-bold">Congratulations random Internet user!</h3>
+            <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia
+                for free!</p> -->
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+<footer class="text-center m-5 p-10">
+    <h1 class="text-2xl">Copyright ©2022 All Rights Reserved By <span class="text-secondary text-4xl">Raihan Uddin Tuhin</span> </h1>
+</footer>
+
+
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
